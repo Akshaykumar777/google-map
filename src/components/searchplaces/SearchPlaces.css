@@ -1,0 +1,46 @@
+.displaymap{
+    width: 100vw;
+    height: 100vh;
+}
+
+.searchplaces{
+    width: 100vw;
+    height: 100vh;  
+    display: flex; 
+}
+
+.search{
+    padding: 20px;
+    background: deepskyblue;
+}
+
+.source, .destination{
+    background: beige;
+    padding: 8px;
+    border-radius: 3px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.source:hover, .destination:hover{
+    border: 2px solid green;
+}
+
+.btn{
+    padding: 5px 47px;
+    border: none;
+    border-radius: 2px;
+    color: green;
+    background: lightyellow;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: lightgreen;
+    color: white;
+}
+
+.btn:active{
+    background-color: green;
+    color: honeydew;
+}
